@@ -1,0 +1,12 @@
+spring.application.name=FirstSecurityApp
+server.port=3000
+
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.datasource.url=your_db_url
+spring.datasource.username=your_db_username
+spring.datasource.password=your_db_password
+
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.properties.hibernate.show_sql=true
+
+jwt_secret=your_jwt_secret
